@@ -32,7 +32,9 @@ header{
 position:fixed;
 top:0;
 width:100%;
-background:rgba(11,35,65,.95);
+background:rgba(5,15,30,.98);
+backdrop-filter:blur(10px);
+border-bottom:7px solid rgba(212,175,55,.30);
 z-index:999;
 padding:15px 8%;
 }
@@ -50,7 +52,8 @@ gap:15px;
 }
 
 .logo img{
-height:60px;
+height:70px;
+filter:drop-shadow(0 0 9px rgba(212,175,55,.25));
 }
 
 .logo h2{
@@ -92,7 +95,8 @@ max-width:900px;
 .hero h1{
 font-size:60px;
 font-family:'Playfair Display',serif;
-margin-bottom:15px;
+text-shadow:0 5px 20px rgba(0,0,0,.50);
+margin-bottom:20px;
 }
 
 .hero p{
@@ -102,14 +106,19 @@ margin-bottom:30px;
 
 .btn{
 display:inline-block;
-padding:14px 30px;
-background:var(--dorado);
+padding:16px 35px;
+background:#d4af37;
 color:white;
 text-decoration:none;
-border-radius:5px;
+border-radius:50px;
 font-weight:bold;
+transition:.4s;
+box-shadow:0 10px 25px rgba(212,175,55,.35);
 }
-
+.btn:hover{
+transform:traslateY(-3px);
+background:#c89b1d;
+}
 section{
 padding:90px 8%;
 }
@@ -143,10 +152,11 @@ gap:25px;
 
 .card{
 background:white;
-padding:30px;
-border-radius:12px;
-box-shadow:0 5px 20px rgba(0,0,0,.08);
-transition:.3s;
+padding:35px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.4s;
+border-top:4px solid transparente;
 }
 
 .card:hover{
@@ -168,7 +178,7 @@ gap:25px;
 
 .galeria img{
 width:100%;
-height:300px;
+height:450px;
 object-fit:cover;
 border-radius:10px;
 box-shadow:0 0 15px rgba(0,0,0,.15);
@@ -405,17 +415,21 @@ Brindamos asesoría y representación legal en diversas ramas del derecho, ofrec
 <div class="areas">
 
 <div class="card">
-<h3>🏛️ Fundada en 2018</h3>
-</div>
+<h3>Fundada en 2018</h3>
+<p>Más de siete años brindando servicios jurídicos de calidad.</p> </div>
 
 <div class="card">
-<h3>⚖️ Más de 7 años de experiencia</h3> </div>
+<h3>Experiencia Jurídica</h3>
+<p>Atención a personas, empresas, cooperativas y organizaciones.</p> </div>
 
 <div class="card">
-<h3>🌎 Servicios Migratorios Internacionales</h3> </div>
+<h3>Servicios Migratorios</h3>
+<p>Visas americanas, canadienses, mexicanas y chinas.</p> </div>
 
 <div class="card">
-<h3>📍 Atención en todo El Salvador</h3> </div>
+<h3>Cumplimiento Normativo</h3>
+<p>Prevención de Lavado de Dinero y Gobierno Corporativo.</p> </div>
+
 
 </div>
 
