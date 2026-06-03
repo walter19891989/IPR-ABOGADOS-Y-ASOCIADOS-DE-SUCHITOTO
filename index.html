@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>IPR Abogados y Asociados | Suchitoto</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+--azul:#0b2341;
+--dorado:#d4af37;
+--blanco:#ffffff;
+--gris:#f5f5f5;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#fff;
+color:#333;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(11,35,65,.95);
+z-index:999;
+padding:15px 8%;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo img{
+height:60px;
+}
+
+.logo h2{
+color:white;
+font-size:22px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:500;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(11,35,65,.75),rgba(11,35,65,.75)),
+url("img/logo-fondo.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero-content{
+max-width:900px;
+}
+
+.hero h1{
+font-size:60px;
+font-family:'Playfair Display',serif;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+background:var(--dorado);
+color:white;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+section{
+padding:90px 8%;
+}
+
+.titulo{
+text-align:center;
+font-size:40px;
+color:var(--azul);
+margin-bottom:50px;
+font-family:'Playfair Display',serif;
+}
+
+.nosotros{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.nosotros img{
+width:100%;
+border-radius:12px;
+box-shadow:0 0 20px rgba(0,0,0,.15);
+}
+
+.areas{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:var(--azul);
+margin-bottom:10px;
+}
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:25px;
+}
+
+.galeria img{
+width:100%;
+height:300px;
+object-fit:cover;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,.15);
+}
+
+.equipo{
+text-align:center;
+}
+
+.equipo img{
+width:100%;
+max-width:900px;
+border-radius:15px;
+box-shadow:0 0 20px rgba(0,0,0,.15);
+}
+
+.contacto{
+background:var(--azul);
+color:white;
+text-align:center;
+}
+
+.contacto h2{
+color:white;
+}
+
+.contacto p{
+margin:10px 0;
+font-size:18px;
+}
+
+footer{
+background:#081728;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+font-size:28px;
+width:65px;
+height:65px;
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+
+@media(max-width:900px){
+
+.hero h1{
+font-size:40px;
+}
+
+.nosotros{
+grid-template-columns:1fr;
+}
+
+nav ul{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+
+<div class="logo">
+<img src="img/logo-ipr.png">
+<h2>IPR Abogados y Asociados</h2>
+</div>
+
+<ul>
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#nosotros">Nosotros</a></li>
+<li><a href="#servicios">Servicios</a></li>
+<li><a href="#equipo">Equipo</a></li>
+<li><a href="#instalaciones">Instalaciones</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+
+</nav>
+</header>
+
+<section class="hero" id="inicio">
+
+<div class="hero-content">
+
+<h1>IPR Abogados y Asociados</h1>
+
+<p>
+Experiencia, compromiso y soluciones jurídicas integrales para personas, empresas y organizaciones.
+</p>
+
+<a href="https://wa.me/50374948896" class="btn"> Solicitar Asesoría </a>
+
+</div>
+
+</section>
+
+<section id="nosotros">
+
+<h2 class="titulo">Quiénes Somos</h2>
+
+<div class="nosotros">
+
+<img src="img/equipo.jpg">
+
+<div>
+
+<p>
+IPR Abogados y Asociados es una firma jurídica establecida en Suchitoto, integrada por profesionales comprometidos con la excelencia, la ética profesional y la defensa efectiva de los intereses de nuestros clientes.
+</p>
+
+<br>
+
+<p>
+Brindamos asesoría y representación legal en diversas ramas del derecho, ofreciendo soluciones estratégicas adaptadas a cada necesidad.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="servicios">
+
+<h2 class="titulo">Áreas de Práctica</h2>
+
+<div class="areas">
+
+<div class="card">
+<h3>Derecho Civil</h3>
+<p>Contratos, obligaciones, daños y perjuicios.</p> </div>
+
+<div class="card">
+<h3>Derecho Mercantil</h3>
+<p>Empresas, sociedades y comercio.</p>
+</div>
+
+<div class="card">
+<h3>Derecho Laboral</h3>
+<p>Defensa patronal y de trabajadores.</p> </div>
+
+<div class="card">
+<h3>Derecho Penal</h3>
+<p>Representación y defensa técnica.</p> </div>
+
+<div class="card">
+<h3>Derecho de Familia</h3>
+<p>Divorcios, alimentos y procesos familiares.</p> </div>
+
+<div class="card">
+<h3>Notariado</h3>
+<p>Escrituras, poderes y autenticaciones.</p> </div>
+
+</div>
+
+</section>
+
+<section id="equipo" class="equipo">
+
+<h2 class="titulo">Nuestro Equipo</h2>
+
+<img src="img/abogados.jpg">
+
+</section>
+
+<section id="instalaciones">
+
+<h2 class="titulo">Nuestras Instalaciones</h2>
+
+<div class="galeria">
+
+<img src="img/oficina1.jpg">
+<img src="img/oficina2.jpg">
+<img src="img/oficina3.jpg">
+
+</div>
+
+</section>
+
+<section id="contacto" class="contacto">
+
+<h2 class="titulo">Contacto</h2>
+
+<p>📍 Suchitoto, Cuscatlán, El Salvador</p>
+<p>📞 7494-8896</p>
+<p>⚖ Atención legal presencial y virtual</p>
+
+</section>
+
+<footer>
+
+© 2026 IPR Abogados y Asociados | Todos los derechos reservados
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/50374948896"> ☎ </a>
+
+</body>
+</html>
